@@ -1,0 +1,23 @@
+Critères qualité logiciel : 
+PRINCIPAUX
+Exactitude	//car il faut que cela corresponde aux attentes de l'utilisateur
+Sécurité	//car données personnelles
+facilité d'apprentissage/de compréhension	//car potentiellement personnes plus âgées
+
+SECONDAIRES
+Stabilité	//pour éviter de devoir changer le logiciel
+Tolérance aux fautes	//car personnes âgées
+
+Critères ergonomiques :
+PRINCIPAUX
+Qualité des messages d'erreur	//potentiellement personnes plus âgées
+Brièveté	//faciliter la lecture, facilité lors de les saisies
+Groupement	//pour faciliter la lecture
+
+SECONDAIRES
+Homogénéité	//faciliter la lecture, plus harmonieux
+Densité informationnelle	//faciliter la lecture, plus harmonieux
+
+On se focalise sur le côté facile d'utilisation, facilité de lecture car les personnes qui 
+vont se servir de l'application/du site sont potentiellement des personnes âgées.
+
