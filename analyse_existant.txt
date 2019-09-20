@@ -1,0 +1,18 @@
+Existe déjà :
+-blog http://scale.over-blog.fr/
+	->barre de recherche
+	->liste des coureurs(avec photo)
+	->liste des présidents/entraineurs, secrétaires etc
+	->information sur le club, historique depuis 1981 + prix et adresse
+	->manière de s'organiser avec les courses prévues
+	->système de contact assez basique avec nom email titre message
+	->système de création d'article
+	->logo
+	->2 sponsors
+	->classements avec résultats
+-système de stock (vente de vélo, pas informatisée)
+-système de mise en place de compétition
+	->dossards, autorisations pour fermer les routes, bénévoles, amublances/medecins au cas où
+-envoi de mail pour prévenir pour les compétitions
+-systeme d'inscription/pré-inscription via google
+-messagerie whatsapp pour informations
