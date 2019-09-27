@@ -1,0 +1,5 @@
+Liste du travail à faire pendant la 2ème itération (rangée du plus au moins important)
+2 personnes : html + css (+ javascript) (site web) Luca Rémi
+1 personne : php Aurel
+2 personnes : sql Loïc, Dim
+2 personnes : réfléchir pour les formulaires (soit java soit c++ ou autre ?) Max Fab
