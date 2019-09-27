@@ -1,30 +1,33 @@
 Expression des besoins
 --------------------------------------------------------------------------------------------------------------------------------------
-- Contexte : Pour alléger la charge de travail de la secrétaire on propose une interface simple lui permettant de récupérer toutes les informations dont elle a besoin pour remplir les documents administratifs pour chaque membre ou participant. 
-- Rappel de l’existant : L’association dispose de tableurs Excel pour rassembler toutes les informations des adhérents.
-- Besoin : Automatisation du rassemblement des informations sur les adhérents.
+- Contexte : Pour allÃ©ger la charge de travail de la secrÃ©taire on propose une interface simple lui permettant de rÃ©cupÃ©rer toutes les informations dont elle a besoin pour remplir les documents administratifs pour chaque membre ou participant. 
+- Rappel de lâ€™existant : Lâ€™association dispose de tableurs Excel pour rassembler toutes les informations des adhÃ©rents.
+- Besoin : Automatisation du rassemblement des informations sur les adhÃ©rents.
 --------------------------------------------------------------------------------------------------------------------------------------
-- Contexte : Pour mettre à jour les stocks et faciliter leur gestion on propose d’enregistrer les stocks sur une base de données.
-- Rappel de l’existant : L’association propose à ses membres la vente de consommables pour le cyclisme mais à des problèmes de gestion de ses stocks. Les stocks sont enregistrés sur un tableur Excel qui n’est pas tout le temps à jour car le trésorier n’informe pas tout le temps des ventes.
-- Besoin : Gérer les stocks de consommables, mettre à jour automatiquement l’état des commandes.
+- Contexte : Pour mettre Ã  jour les stocks et faciliter leur gestion on propose dâ€™enregistrer les stocks sur une base de donnÃ©es.
+- Rappel de lâ€™existant : Lâ€™association propose Ã  ses membres la vente de consommables pour le cyclisme mais Ã  des problÃ¨mes de gestion de ses stocks. Les stocks sont enregistrÃ©s sur un tableur Excel qui nâ€™est pas tout le temps Ã  jour car le trÃ©sorier nâ€™informe pas tout le temps des ventes.
+- Besoin : GÃ©rer les stocks de consommables, mettre Ã  jour automatiquement lâ€™Ã©tat des commandes.
 --------------------------------------------------------------------------------------------------------------------------------------
-- Contexte : Pour faciliter le contact avec le bureau du SCALE il sera proposé un formulaire de contact.
-- Rappel de l’existant : Un formulaire de contact est disponible sur le blog mais il n’est pas intuitif et on ne sait pas si le message a bien été envoyé.
+- Contexte : Pour faciliter le contact avec le bureau du SCALE il sera proposÃ© un formulaire de contact.
+- Rappel de lâ€™existant : Un formulaire de contact est disponible sur le blog mais il nâ€™est pas intuitif et on ne sait pas si le message a bien Ã©tÃ© envoyÃ©.
 - Besoin : Avoir un formulaire de contact intuitif.
 --------------------------------------------------------------------------------------------------------------------------------------
-- Contexte : Pour permettre aux participants d’une compétition d’avoir accès à leur classement rapidement  On propose de les notifier par mail après la saisie du classement.
-- Rappel de l’existant : Attente nécessaire pour connaitre son classement sur une feuille environ 15-30mn après l’arrivée du dernier coureur. Le classement est souvent publié le lendemain de la compétition. 
- - Besoin : Avoir son classement  disponible le plus rapidement possible après l’arrivée. 
+- Contexte : Pour permettre aux participants dâ€™une compÃ©tition dâ€™avoir accÃ¨s Ã  leur classement rapidement  On propose de les notifier par mail aprÃ¨s la saisie du classement.
+- Rappel de lâ€™existant : Attente nÃ©cessaire pour connaitre son classement sur une feuille environ 15-30mn aprÃ¨s lâ€™arrivÃ©e du dernier coureur. Le classement est souvent publiÃ© le lendemain de la compÃ©tition. 
+ - Besoin : Avoir son classement  disponible le plus rapidement possible aprÃ¨s lâ€™arrivÃ©e. 
 --------------------------------------------------------------------------------------------------------------------------------------
-- Contexte : Pour faciliter les pré-inscriptions aux compétitions et sécuriser les informations des inscrits un formulaire d’inscription sera proposé.
-- Rappel de l’existant : Formulaire google doc qui enregistre toutes les données des inscrits dans un tableur. N’importe qui peux avoir accès au numéro de licence ou adresse e-mail d’un inscrit.
-- Besoin : Contraindre l’accès aux données sensibles des membres, simplifier le formulaire.
+- Contexte : Pour faciliter les prÃ©-inscriptions aux compÃ©titions et sÃ©curiser les informations des inscrits un formulaire dâ€™inscription sera proposÃ©.
+- Rappel de lâ€™existant : Formulaire google doc qui enregistre toutes les donnÃ©es des inscrits dans un tableur. Nâ€™importe qui peux avoir accÃ¨s au numÃ©ro de licence ou adresse e-mail dâ€™un inscrit.
+- Besoin : Contraindre lâ€™accÃ¨s aux donnÃ©es sensibles des membres, simplifier le formulaire.
 --------------------------------------------------------------------------------------------------------------------------------------
--Contexte : Pour alléger la charge de travail de la secrétaire il sera proposé une solution pour faciliter le remplissage des documents redondants. 
-- Rappel de l’existant : la secrétaire doit remplir de nombreux documents administratifs que ca soit des autorisations pour bloquer les routes lors des compétitions, liste des bénévoles et des secours,  dossiers assurance, renouvellement des licences.
-- Besoin : Automatiser le remplissage de certains documents administratifs,  disposer d'une interface intuitive pour récupérer des informations sur les membres.
+-Contexte : Pour allÃ©ger la charge de travail de la secrÃ©taire il sera proposÃ© une solution pour faciliter le remplissage des documents redondants. 
+- Rappel de lâ€™existant : la secrÃ©taire doit remplir de nombreux documents administratifs que ca soit des autorisations pour bloquer les routes lors des compÃ©titions, liste des bÃ©nÃ©voles et des secours,  dossiers assurance, renouvellement des licences.
+- Besoin : Automatiser le remplissage de certains documents administratifs,  disposer d'une interface intuitive pour rÃ©cupÃ©rer des informations sur les membres.
 --------------------------------------------------------------------------------------------------------------------------------------
-- Contexte : Pour faciliter l’accès aux informations  de l’association il sera proposé un site internet.
-- Rappel de l’existant : l’association possède un overblog gratuit limité par des quotas de données. Le blog contient des informations sur l’association, un formulaire de contact peu intuitif, la liste des adhérents, une barre de recherche et des articles décrivant les résultats et déroulement des compétitions.
--Besoin : site web avec plus de quotas donnés, système de formulaire de contact,
-
+- Contexte : Pour faciliter lâ€™accÃ¨s aux informations  de lâ€™association il sera proposÃ© un site internet.
+- Rappel de lâ€™existant : lâ€™association possÃ¨de un overblog gratuit limitÃ© par des quotas de donnÃ©es. Le blog contient des informations sur lâ€™association, un formulaire de contact peu intuitif, la liste des adhÃ©rents, une barre de recherche et des articles dÃ©crivant les rÃ©sultats et dÃ©roulement des compÃ©titions.
+-Besoin : site web avec plus de quotas donnÃ©s, systÃ¨me de formulaire de contact,
+--------------------------------------------------------------------------------------------------------------------------------------
+Contexte : Les adhÃ©rents s'entraine pas regulierement a des jours prÃ©cis de la semaine et on du mal a se contacter a un seul endroit (multiplication des moyens de communication)
+Rappel de lâ€™existant: Utilisation d'un groupe whatsapp la plupart du temps 
+Besoin : Organiser et contacter tout les adhÃ©rents pour un entrainement 
