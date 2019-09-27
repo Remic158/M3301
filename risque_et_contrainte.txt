@@ -1,28 +1,29 @@
-Gestions des risques et des contraintes associés
+Gestions des risques et des contraintes associÃ©s
 
 
-Risques :
+RisquesÂ :
 
--changement des formulaires administratifs
-- intrusion dans la base de données (sécurité)
-- les outils que l’on propose ne sont pas plus pratique que Excel ou overblog
--difficulté à se répartir le travail
-- sous-estimation de la complexité
--défaut équipement
--
-
-
-
-
+- optimisation en cas de changement futurs
+- intrusion dans la base de donnÃ©es (sÃ©curitÃ©)
+- non-amÃ©lioration de lâ€™existant
+- sous-estimation de la charge
+- sous-estimation de la complexitÃ©
+- dÃ©faut Ã©quipement
+- Manque de connaissance
+- risques humains
 
 
 
-Contraintes :
+
+
+
+
+ContraintesÂ :
  
-- temps limité
--respecter la GRPD
-- Il faut payer le nom de domaine du site
-- difficulté pour la sécurité contre des attaques
-- modifier le site sans rentrer dans le détail technique
-
-
+- contraintes temporelles
+- respect de la GRPD
+- difficultÃ© pour la sÃ©curitÃ© contre des attaques
+- faciliter la modification du site si besoin
+- respect de lâ€™existant
+- facilitÃ© dâ€™accÃ¨s
+- facilitÃ© dâ€™utilisation
