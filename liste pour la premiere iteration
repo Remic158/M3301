@@ -1,0 +1,47 @@
+1.     Cadrage du projet
+
+- décrire le projet → le QUOI ? (ce qui est demandé) <OK>  
+
+- indiquer les objectifs → Le POURQUOI ? <OK-fabien>                                             
+
+- décrire le contexte[3] → le OU ? Analyse de l'existant <brut-fabien>  
+
+- les parties prenantes → le QUI ? <OK>  
+
+- indiquer les contraintes <brut>  
+
+- identifier les risques <brut>
+
+
+2.     Expression du besoin (→le QUOI ?)
+
+→ De l'idée à la spécification détaillée - suppose d'utiliser les outils de modélisation
+
+Expression du besoin et analyse.
+
+Description des fonctions attendues
+
+Distinction fonctions principales
+
+Hiérarchisation des fonctions 
+
+Niveau de qualité logicielle    <brut>
+
+3.     Solutions (→ le COMMENT ?)
+
+- Solutions techniques
+
+Spécifications détaillées, maquette et évaluation ergonomique + aspects réalisation (environnement technique de travail → langage, outils, ...). A partir de la deuxième itération, vous devez établir la correspondance entre votre réalisation technique et les critères qualité logicielle choisis.
+
+Conception et réalisation.
+
+ Solutions techniques envisageables → Besoins techniques (logiciel et matériel).
+
+définir (et expliquer le choix de) l'environnement de travail choisi → Architecture technique.
+
+- Organisation du travail
+
+Choix d'un modèle (ou stratégie) de développement.
+
+Découpage du projet
+
