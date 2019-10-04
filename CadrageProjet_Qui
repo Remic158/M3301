@@ -1,28 +1,31 @@
-QUI:
-Domaine d’activité : gestion et administration 
+Les parties prenantes :
+Domaine d’activité : gestion et administration, 
 Attente d’une solution permettant la simplification de la gestion du club
-Utilisateur : Gestionnaire du club et secrétaire pour la parti admin 
-Adhérent et tout public pour la parti actualité et statistique 
+Utilisateur : Gestionnaire du club et secrétaire pour la partie administrative,
+Adhérent et tout public pour la parti actualité et statistique
 
-Compétence attendu :
 
--Manipulation de base de donné 
+
+
+Compétence attendues :
+
+-Manipulation de bases de données
 -Construction de site web 
--Elaboration de fonctionnalité simple facilitant le travail des utilisateurs 
+-Elaboration de fonctionnalités simples facilitant le travail des utilisateurs 
 -Elaboration d’une charte graphique 
 
-“Sous Traitant” : Hebergeur de site web au moment de la publication de celui ci 
+“Sous Traitant” : Hebergeur de site web au moment de la publication de celui-ci 
 
-Contrainte : 
+Contraintes : 
 Temporelles 
 Respect de la GRPD 
 Difficulté pour la sécurité contres des attaques 
 Facilité de modification du site 
-Respect de l’existtant 
-Facilité d’acces 
+Respect de l’existant 
+Facilité d’accès 
 Facilité d’utilisation 
 
-Risque:
+Risques :
 -intrusion dans la base de données (sécurité)
 -non-amélioration de l’existant
 -sous-estimation de la charge
