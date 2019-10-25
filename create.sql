@@ -1,24 +1,36 @@
 CREATE TABLE adherent (
-     id int(3) PRIMARY KEY,
+     idAdherent int(3) PRIMARY KEY,
      nom STRING NOT NULL,
      prenom STRING NOT NULL,
      categorie STRING,
      datenaissance DATE NOT NULL,
      adresse STRING,
      telephone char(10),
-     mail STRING
+     mail STRING,
+     numLicence int,
+     FOREIGN KEY (numLicence) REFERENCES  licence(numLicence)
 );
 
-CREATE TABLE licences(
-  id int(3) PRIMARY KEY,
+CREATE TABLE licence(
+  numLicence int PRIMARY KEY,
   federation STRING,
-  numlicence int,
-  paiement STRING,
-  FOREIGN KEY id references adherent(id)
+  idPaiement int,
+  idAdherent int(3),
+ );
+
+CREATE TABLE payementLicence(
+  idPaiement int PRIMARY KEY,
+  datePayement date,
+  montant float,
+  typePyement STRING,
+
+  FOREIGN KEY (idAdherent) REFERENCES  adherent(idAdherent)
 );
 
-CREATE TABLE article(
-    id int(3) PRIMARY KEY, commentaire : clé quandidate : nom et taille
+
+
+CREATE TABLE achatArticle(
+    idArticle int(3) PRIMARY KEY,
     nom STRING,
     description STRING,
     prixVente float,
@@ -32,17 +44,16 @@ CREATE TABLE achatAdherent(
   dateAchat DATE,
   paiement BOOLEAN,
   PRIMARY KEY(idArticle, idAdherent),
-  FOREIGN KEY idArticle references article(id),
-  FOREIGN KEY idAdherent references adherent(id)
+  FOREIGN KEY (idArticle) REFERENCES  article(idArticle),
+  FOREIGN KEY (idAdherent) REFERENCES  adherent(idAdherent)
 );
 
 
 CREATE TABLE bonDeCommande(
-  id int(3) PRIMARY KEY,
+  idBonDeCommande int(3) PRIMARY KEY,
   dateAchat DATE,
   prixTotal float,
-  validation BOOLEAN,
-
+  validation BOOLEAN
 );
 
 CREATE TABLE articleCommande(
@@ -51,5 +62,4 @@ CREATE TABLE articleCommande(
   taille STRING,
   quantite int,
   prixDEVente float
-
 );
