@@ -1,0 +1,58 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/* 
+ * File:   main.cpp
+ * Author: polydord
+ *
+ * Created on 29 novembre 2019, 14:55
+ */
+
+#include <cstdlib>
+#include <iostream>
+#include <fstream>
+#include <string>
+/*
+ * 
+ */
+using namespace std;
+
+int main() {
+    ofstream fichierTxt("/users/info/etu-s3/polydord/projet/exempleTrad.txt");
+    ifstream fichierCsv("/users/info/etu-s3/polydord/projet/exemple222.csv");
+    if (fichierTxt && fichierCsv) { //Si les deux fichiers ont été ouverts 
+        string ligne; //on lit ligne par ligne
+        bool ok = false;
+        while (getline(fichierCsv, ligne)) { //tant qu'il y a des lignes
+            if (ligne.at(0) == '1') //tant qu'on est pas à la 1ere ligne du tableau on n'écrit pas
+                ok = true;
+            if (ok == true) { //si on est à la premiere ligne du tableau on écrit
+                int i = 0;
+                while(i < ligne.length()){
+                //for (int i = 0; i < ligne.length()) { //remplace les séparateurs ; en séparateurs ','
+                    if (ligne.at(i) == ';' && ligne.at(i+1) != ';') {
+                            ligne.replace(i, 1, "','");
+                            i++;
+                        }
+                    else if (ligne.at(i) == ';' && ligne.at(i+1) == ';'){
+                        
+                            ligne.replace(i, 1, "','null','");  //Il y a un problème avec les null, il faut aussi enlever les attributs de nombre. Pour ça on doit supprimer le début 'n', donc supprimer 1+i+1+1+1 ('+n+'+,)
+                            i++;
+                        
+                    }else{
+                        i++;
+                    }
+                }
+                cout << "INSERT INTO adherent (nom, prenom, categorie, datenaissance, adresse, telephone, mail, numLicence) Values('" << ligne << "');\n" << endl;
+            }
+        }
+    } else {
+        cout << "erreur" << endl;
+    }
+    return 0;
+}
+
+
